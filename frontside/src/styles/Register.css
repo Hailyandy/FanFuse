@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:20vh auto;
+    height:60vh;
+    width:60vw;
+    max-width:100%; */
+    
+}
+.register-small{
+padding:2rem;
+color: var(--text-color);
+}
+.register-container{
+    margin-top:6rem;
+    background: linear-gradient(to right,#ff9966,#ff5e62);
+    padding:.5rem 3rem;
+    border-radius:10px;
+}
+.register-header{
+    font-size:2.4rem;
+    text-align:center;
+    color: var(--text-color);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.register-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.register-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.register-dataformemail{
+padding:.3rem;
+margin:.5rem 0;
+border-radius:3px;
+outline:none;
+height: 1.5rem;
+width: 100%;
+border:2px solid var(--border-color);
+color:white;
+background:linear-gradient(to right,#ff9966,#ff5e62);
+}
+
+
+.register-dataformemail::placeholder{
+    color: var(--border-color);
+}
+
+.register-dataformpass{
+    padding:.3rem;
+    margin:.5rem 0;
+    height: 1.5rem;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:2px solid var(--border-color);
+    color: var(--text-color);
+    background:linear-gradient(to right,#ff9966,#ff5e62);
+}
+
+.register-dataformpass::placeholder{
+    color: var(--border-color);
+}
+
+
+.register-dataformbtn{
+color: var(--text-color);
+padding:.3rem;
+border-radius:3px;
+border:2px solid var(--border-color);
+background-color:#f54b4e;
+margin:.5rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+}
+.register-dataformselect{
+    
+    padding:.3rem;
+    margin:.5rem 0;
+    width:105%;
+    border-radius:3px;
+    outline:none;
+    border:2px solid var(--border-color);
+    color:rgb(249, 200, 200);
+    height:2rem;
+    background: linear-gradient(to right,#ff9966,#ff5e62);
+
+}
+.register-showpass{
+    position:fixed;
+    top:48%;
+    left:58%;
+    background-color:var(--bg-color);
+    padding:2px;
+    border-radius:2px;
+    color:white;
+    vertical-align: middle;
+    cursor: pointer;
+    }
+
+.register-showcfpass{
+        position:fixed;
+        top:55%;
+        left:58%;
+        background-color:var(--bg-color);
+        padding:2px;
+        border-radius:2px;
+        vertical-align: middle;
+        cursor: pointer;
+        color:white;
+}
+
+.toLogin{
+    color: #b50508;
+}

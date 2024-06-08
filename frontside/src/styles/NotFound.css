@@ -1,0 +1,37 @@
+.notfound{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.notfound-text{
+    color: var(--text-color);
+    transform: translate(40vw,40vh);
+    font-size:3rem;
+    font-weight: 500;
+    width:fit-content;
+    border:8px solid var(--border-color);
+    border-radius: 8px;
+    padding:2rem;
+    background-color:var(--border-color);
+}
+
+.notfound-found {
+
+    color: var(--text-color);
+    transform: translateY(50vh);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.notfound-link {
+    font-weight: 700;
+    border: 3px solid var(--border-color);
+    border-radius: 2px;
+    padding:.5rem;
+    margin:.25rem;
+    color: rgb(250, 58, 90);
+}
